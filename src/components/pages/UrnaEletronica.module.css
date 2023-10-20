@@ -1,0 +1,157 @@
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+
+body{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #212121;
+}
+
+.containerUrna{
+    border: 1px solid black;
+    padding: 20px;
+    height: 38vh;
+    width: 80vh;
+    clip-path: polygon(5% 0, 91.7% 0, 96.6% 100%, 1% 100%);
+    background-color: #eeeeee;
+    align-items: center;
+    display: flex;
+
+}
+.visor{
+background-color: #929292;
+height: 31.8vh;
+width: 46vh;
+clip-path: polygon(12% 0, 97% 0, 97% 100%, 5% 100%);
+}
+.teclado{
+    
+    width: 34vh;
+    height: 34vh;
+    clip-path: polygon(8% 0, 86% 0, 95% 100%, 11% 100%);
+    display: flex;
+    flex-direction: column;
+
+}
+.nomeJustica{
+    background-color: #bdbdbd;
+    height: 38px;
+    width: 33vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(56, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:700;
+    font-size: 14px;
+
+}
+.teclas{
+    background-color: #333333;
+    height: 30vh;
+    width: 35vh;
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+    
+
+}
+
+.numeros{
+    
+    
+
+    width: 17vh;
+    height: 10vh;
+    flex-wrap: wrap;
+    gap: 8px;
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+    
+}
+
+.botaoNumerico{
+    border: none;
+    color: white;
+    background-color: #212121;
+    padding: 3px 10px 3px 10px;
+    box-shadow: 1px 1px 1px 1px black;
+    
+}
+.botaoBranco{
+    display: flex;
+    border: none;
+    color: black;
+    background-color: white;
+    height: 28px;
+    width: 45px;
+    font-size: 9px;
+    justify-content: center;
+    padding: 2px 0px 0px 0px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 1px black;
+    margin-bottom: 10px;
+    
+}
+.botaoCorrige{
+    display: flex;
+    border: none;
+    color: black;
+    background-color: #c53e09;
+    height: 28px;
+    width: 45px;
+    font-size: 9px;
+    justify-content: center;
+    padding: 2px 0px 0px 0px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 1px black;
+    margin-bottom: 10px;
+    
+}
+.botaoConfirma{
+    display: flex;
+    border: none;
+    color: black;
+    background-color: #05c73696;
+    height: 33px;
+    width: 47px;
+    font-size: 8.5px;
+    justify-content: center;
+    padding: 2px 0px 0px 0px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 1px black;
+    margin-bottom: 10px;
+    
+}
+.botoesSelecao{
+    display: flex;
+    height: 38px;
+    margin-bottom: 25px;
+    gap: 9px;
+    align-items: end;
+  
+}
