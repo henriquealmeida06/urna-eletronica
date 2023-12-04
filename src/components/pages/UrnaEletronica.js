@@ -10,7 +10,7 @@ function UrnaEletronica(){
 
             </div>
             <div className={styles.teclado}>
-                <div className={styles.nomeJustica}>
+                <div className={styles.divJustica}>
                     <p className={styles.nomeJustica}>JUSTIÇA ELEITORAL</p>
                 </div>
                 <div className={styles.teclas}>
